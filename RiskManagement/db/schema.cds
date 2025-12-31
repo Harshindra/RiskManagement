@@ -1,4 +1,4 @@
-using { BusinessPartnerA2X } from '../srv/external/BusinessPartnerA2X.cds'; 
+using { BusinessPartnerA2X } from '../srv/external/BusinessPartnerA2X.cds';
 namespace RiskManagement;
 
 entity Risks {
