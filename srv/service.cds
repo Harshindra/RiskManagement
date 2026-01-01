@@ -4,7 +4,7 @@ using RiskManagement from '../db/schema';
 
 service RiskManagementService
 {
-    annotate BusinessPartner with @restrict :
+    annotate BusinessPartner with @restrict:
     [
         { grant : [ '*' ], to : [ 'RiskManager' ] },
         { grant : [ 'READ' ], to : [ 'Riskviewer' ] }
